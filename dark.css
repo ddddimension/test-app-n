@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Domine&family=Inter:wght@300&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    
+    font-family: 'Domine', serif;
+    margin: 0;
+    padding: 0;
+    background-color:hsl(207, 26%, 17%);
+   }
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 1px 1px 1px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: hsl(209, 23%, 22%);
+}
+
+.search_country {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 380px;
+    font-size: 13px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: hsl(209, 23%, 22%);
+}
+
+.flags {
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+h1{
+    margin-left: 100px;
+    color: antiquewhite;
+}
+
+.dark_mode {
+    margin-right: 100px;
+    border: none;
+    background-color:hsl(209, 23%, 22%) ;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+p,h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: antiquewhite;
+}
+
+#select-id {
+    display: flex;
+    flex-direction: row;
+    border-radius:  3px;
+    width: 150px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border: none;
+    background-color: hsl(209, 23%, 22%);
+    color: antiquewhite;
+}
+#input {
+    display: flex;
+    width: 20%;
+    height: 40px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border: none;
+    background-color:hsl(209, 23%, 22%);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+::placeholder{
+    color: antiquewhite;
+}

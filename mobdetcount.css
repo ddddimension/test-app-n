@@ -1,0 +1,14 @@
+@media only screen and (max-width: 414px)  {
+   
+     .info {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+     } 
+     .card{
+        display: flex;
+        flex-direction: column;
+     }
+     
+}
+
